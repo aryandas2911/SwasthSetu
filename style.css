@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif; /* Add a font family for better readability */
+    background-color: #048581; /* Emerald Green */
+    color: #fff; /* White text */
+    margin: 0; /* Remove default browser margins */
+}
+
+header {
+    background-color: #006663; /* Slightly darker green for header */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #048581;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#hero {
+    text-align: center;
+    padding: 80px 0; /* Add some top and bottom padding */
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-group a {
+    margin: 0 10px;
+}
+
+#featured {
+    padding: 40px 0;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow features to wrap to the next line on smaller screens */
+}
+
+.feature {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%; 
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #006663;
+    padding: 20px;
+    text-align: center;
+}
