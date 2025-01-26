@@ -1,0 +1,141 @@
+SITEMAP
+
+## SwasthSetu Sitemap
+
+1. **Home**
+   - Introduction to SwasthSetu
+   - Key Features Overview
+   - Call to Action (CTA) to Sign Up/Login
+
+2. **Services**
+   - **Volunteer Rides**
+     - How It Works
+     - Find a Ride
+     - Volunteer Registration
+     - Community Service Points
+   - **Ambulance Tracker**
+     - Book an Ambulance
+     - Live Tracking
+     - Best Route Information
+     - Notification Settings
+   - **Mindcare - Mental Health Tracker**
+     - Psychological Tests
+     - Stress Level Detection
+     - Music Therapy
+     - Self-Care Tips
+
+3. **Gamified System**
+   - Badges & Achievements
+   - Leaderboards
+   - Partnered Perks
+   - Health Check Rewards
+
+4. **Inclusivity**
+   - Multi-Language Support
+   - Text Readers for the Blind
+   - Simple Icons for Limited Literacy
+   - Community Feedback
+
+5. **Volunteer Resources**
+   - Educational Content
+   - Basic Medic Kit Requirements
+   - Emergency On-Road Guidance
+
+6. **Disaster Management**
+   - Flag Urgent Patients
+   - Emergency Protocols
+   - Resource Allocation
+
+7. **About Us**
+   - Our Mission
+   - Team
+   - Partners
+
+8. **Contact Us**
+   - Support Center
+   - FAQ
+   - Feedback
+
+9. **Blog/News**
+   - Health Tips
+   - Success Stories
+   - Updates and Announcements
+
+10. **User Account**
+    - Profile Management
+    - Health Records
+    - Volunteer History
+    - Points and Rewards
+__________________________________________________________________________________________________________
+PROTOTYPE OUTLINE
+
+## Home
+- Header: Logo, Navigation Menu (Home, Services, About Us, Contact Us)
+- Banner Image/Video with CTA (Sign Up/Login)
+- Introduction to SwasthSetu: Brief Description
+- Key Features Overview: Icons and Short Descriptions of Main Features
+- Testimonials: Quotes from Users
+- Footer: Links to Social Media, Privacy Policy, Terms of Service
+
+## Services
+### Volunteer Rides
+- How It Works: Step-by-step Guide
+- Find a Ride: Search/Map Functionality
+- Volunteer Registration: Form for Signing Up
+- Community Service Points: Explanation and Benefits
+
+### Ambulance Tracker
+- Book an Ambulance: Form to Enter Emergency Details
+- Live Tracking: Map with Real-time Ambulance Locations
+- Best Route Information: Route Optimization
+- Notification Settings: Toggle for Notifications
+
+### Mindcare - Mental Health Tracker
+- Psychological Tests: List of Available Tests
+- Stress Level Detection: Input and Results Display
+- Music Therapy: Music Player with Relaxation Tracks
+- Self-Care Tips: Articles and Resources
+
+## Gamified System
+- Badges & Achievements: Display Earned Badges
+- Leaderboards: List of Top Users
+- Partnered Perks: Discounts and Offers
+- Health Check Rewards: Information on Free Health Checks
+
+## Inclusivity
+- Multi-Language Support: Language Selection Dropdown
+- Text Readers for the Blind: Audio Playback for Text
+- Simple Icons for Limited Literacy: Visual Icons
+- Community Feedback: Form for Suggestions
+
+## Volunteer Resources
+- Educational Content: Articles and Videos
+- Basic Medic Kit Requirements: Checklist
+- Emergency On-Road Guidance: Step-by-step Instructions
+
+## Disaster Management
+- Flag Urgent Patients: Form to Submit Information
+- Emergency Protocols: Guidelines for Volunteers
+- Resource Allocation: Map of Available Resources
+
+## About Us
+- Our Mission: Statement of Purpose
+- Team: Photos and Bios of Team Members
+- Partners: Logos and Links of Partner Organizations
+
+## Contact Us
+- Support Center: FAQ and Help Articles
+- Contact Form: Submit Inquiries
+- Feedback: User Feedback Form
+
+## Blog/News
+- Health Tips: Articles and Resources
+- Success Stories: Testimonials and Case Studies
+- Updates and Announcements: Latest News
+
+## User Account
+- Profile Management: Edit Personal Information
+- Health Records: View and Manage Health Data
+- Volunteer History: Track Volunteer Activities
+- Points and Rewards: View Earned Points and Redeem Rewards
+
