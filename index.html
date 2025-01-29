@@ -5,19 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SwasthSetu - Healthcare Access</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <script defer src="script.js"></script>
   </head>
   <body>
     <!-- Navbar -->
     <header>
       <nav>
-        <div class="logo">SwasthSetu</div>
+        <div class="logo-container">
+          <img src="logo.png" alt="SwasthSetu Logo" class="logo-img" />
+          <div class="logo-title">SwasthSetu</div>
+        </div>
         <ul class="nav-links">
-          <li><a href="#features">Features</a></li>
-          <li><a href="#volunteer">Volunteers</a></li>
-          <li><a href="#emergency">Emergency</a></li>
+          <li>
+            <a href="#features"><i class="fas fa-cogs"></i> Features</a>
+          </li>
+          <li>
+            <a href="#volunteer"
+              ><i class="fas fa-hands-helping"></i> Volunteer</a
+            >
+          </li>
+          <li>
+            <a href="#emergency"
+              ><i class="fas fa-exclamation-triangle"></i> Emergency</a
+            >
+          </li>
         </ul>
-        <a href="#get-started" class="cta">Get Started</a>
+        <a href="#get-started" class="get-started">Login</a>
       </nav>
     </header>
 
@@ -30,8 +47,8 @@
           access to quality healthcare when they need it most.
         </p>
         <div class="hero-buttons">
-          <button class="btn btn-white">Book Ambulance</button>
-          <button class="btn btn-teal">Become a Volunteer</button>
+          <button class="btn btn-white" onclick="document.location='AskForHelpForm.html'">Ask For Help</button>
+          <button class="btn btn-teal" onclick="document.location='BecomeAvolunteerForm.html'">Become a Volunteer</button>
         </div>
       </div>
       <div class="hero-image">
@@ -60,6 +77,7 @@
       <h2>Our Features</h2>
       <div class="feature-grid">
         <div class="feature-item">
+          <i class="fas fa-users"></i>
           <h3>Volunteer Transport Network</h3>
           <p>
             Volunteers offer non-emergency rides and earn points for their
@@ -67,22 +85,30 @@
           </p>
         </div>
         <div class="feature-item">
+          <i class="fas fa-ambulance"></i>
           <h3>Smart Ambulance Tracking</h3>
           <p>Book and track ambulances with real-time updates and alerts.</p>
         </div>
         <div class="feature-item">
-          <h3>Multi-Language Support</h3>
-          <p>Access services in your preferred language for inclusivity.</p>
+          <i class="fas fa-person-dress"></i>
+          <h3>Women Specific Concerns</h3>
+          <p>
+            Option to choose female volunteers for women specific and sensitive
+            needs
+          </p>
         </div>
         <div class="feature-item">
+          <i class="fas fa-graduation-cap"></i>
           <h3>Emergency Education</h3>
           <p>Educational content for handling on-road emergencies.</p>
         </div>
         <div class="feature-item">
+          <i class="fas fa-trophy"></i>
           <h3>Gamified Rewards System</h3>
           <p>Earn badges, claim leaderboards, and receive perks.</p>
         </div>
         <div class="feature-item">
+          <i class="fas fa-bell"></i>
           <h3>Priority Emergency System</h3>
           <p>
             Flag urgent patients affected by natural disasters for priority.
@@ -104,8 +130,12 @@
     <!-- Footer -->
     <footer>
       <div class="footer-content">
-        <div class="footer-logo">SwasthSetu</div>
+        <div class="footer-logo">
+          <div>SwasthSetu</div>
+          <p>Bridging the gap in healthcare access</p>
+        </div>
         <div class="footer-links">
+          <h3>Quick Links</h3>
           <ul>
             <li><a href="#features">Features</a></li>
             <li><a href="#volunteer">Volunteer</a></li>
@@ -113,11 +143,29 @@
           </ul>
         </div>
         <div class="footer-contact">
-          <p>Emergency: 108</p>
-          <p>Support: 1800-XXX-XXXX</p>
-          <p>Email: help@swasthsetu.org</p>
+          <h3>Contact</h3>
+          <p>Email: contact@swasthsetu.com</p>
+          <p>Phone: +91 12345 67890</p>
+          <p>Address: ABC Health St, Wellness Locality</p>
         </div>
       </div>
     </footer>
+
+    <footer class="footer-bottom">
+      <p>&copy; 2024 SwasthSetu. All rights reserved.</p>
+    </footer>
+
+    <script
+      data-name="BMC-Widget"
+      data-cfasync="false"
+      src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+      data-id="InsaneJSK"
+      data-description="Support me on Buy me a coffee!"
+      data-message="Thank you for your support!"
+      data-color="#FFDD00"
+      data-position="Right"
+      data-x_margin="18"
+      data-y_margin="18"
+    ></script>
   </body>
 </html>
