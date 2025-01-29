@@ -18,30 +18,51 @@
     <header>
       <nav>
         <div class="logo-container">
-          <a href="index.html"
-            ><img src="logo.png" alt="SwasthSetu Logo" class="logo-img"
-          /></a>
+          <a href="index.html">
+            <img src="logo.png" alt="SwasthSetu Logo" class="logo-img" />
+          </a>
           <div class="logo-title">SwasthSetu</div>
         </div>
-        <ul class="nav-links">
-          <li>
-            <a href="#features"><i class="fas fa-cogs"></i> Features</a>
-          </li>
-          <li>
-            <a href="leaderboard.html"
-              ><i class="fas fa-hands-helping"></i> Volunteer</a
-            >
-          </li>
-          <li>
-            <a href="#emergency"
-              ><i class="fas fa-exclamation-triangle"></i> Emergency</a
-            >
-          </li>
-        </ul>
-        <a href="login.html" class="get-started">Login</a>
+        <div class="nav-right">
+          <ul class="nav-links">
+            <li>
+              <a href="#features"><i class="fas fa-cogs"></i> Features</a>
+            </li>
+            <li>
+              <a href="leaderboard.html"><i class="fas fa-hands-helping"></i> Volunteer</a>
+            </li>
+            <li>
+              <a href="#emergency"><i class="fas fa-exclamation-triangle"></i> Emergency</a>
+            </li>
+          </ul>
+          <a href="login.html" class="get-started">Login</a>
+        </div>
       </nav>
     </header>
-
+    
+    <style>
+      .nav-right {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+      }
+    
+      .nav-links {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+    
+      .nav-links li {
+        margin-left: 15px;
+      }
+    
+      .get-started {
+        margin-left: 20px;
+      }
+    </style>
+    
     <!-- Leaderboard Section -->
     <div class="leaderboard-container">
       <h2>Volunteer Leaderboard 🏆</h2>
