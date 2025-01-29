@@ -1,75 +1,134 @@
+/* General Styles */
 body {
-    font-family: sans-serif; /* Add a font family for better readability */
-    background-color: #048581; /* Emerald Green */
-    color: #fff; /* White text */
-    margin: 0; /* Remove default browser margins */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f8f9fa;
 }
 
-header {
-    background-color: #006663; /* Slightly darker green for header */
-    padding: 20px;
-    text-align: center;
+/* Navbar */
+nav {
+    background: linear-gradient(45deg, #02665c, #048581);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    color: white;
 }
 
-nav ul {
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
     list-style: none;
+    display: flex;
+    margin: 0;
     padding: 0;
 }
 
-nav ul li {
-    display: inline-block;
-    margin: 0 15px;
+.nav-links li {
+    margin-left: 20px;
 }
 
-nav a {
-    color: #fff;
+.nav-links li a {
+    color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #048581;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-#hero {
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #02665c, #048581);
+    color: white;
     text-align: center;
-    padding: 80px 0; /* Add some top and bottom padding */
+    padding: 80px 20px;
 }
 
-.button-group {
-    display: flex;
-    justify-content: center;
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Buttons */
+.hero-buttons {
     margin-top: 20px;
 }
 
-.button-group a {
-    margin: 0 10px;
+.btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    width: 180px;
+    transition: all 0.3s ease;
 }
 
-#featured {
-    padding: 40px 0;
+/* White Button */
+.white-btn {
+    background: white;
+    color: #048581;
+    border: 2px solid #048581;
+}
+
+.white-btn:hover {
+    background: #048581;
+    color: white;
+}
+
+/* Teal Button */
+.teal-btn {
+    background: #048581;
+    color: white;
+    border: 2px solid white;
+}
+
+.teal-btn:hover {
+    background: white;
+    color: #048581;
+}
+
+/* Features Section */
+.features {
+    padding: 50px 20px;
+    text-align: center;
+    background: white;
 }
 
 .feature-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; /* Allow features to wrap to the next line on smaller screens */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
 }
 
 .feature {
-    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    background: linear-gradient(135deg, #05a594, #048581);
+    color: white;
     padding: 20px;
-    border-radius: 5px;
-    width: 30%; 
-    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.feature:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
 footer {
-    background-color: #006663;
-    padding: 20px;
+    background: #02665c;
+    color: white;
     text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-weight: bold;
 }
