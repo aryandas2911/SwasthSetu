@@ -1,33 +1,63 @@
-/* General Styles */
+/* General Reset */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
     color: #333;
-    background: #f8f9fa;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
 }
 
 /* Navbar */
 nav {
-    background: linear-gradient(45deg, #02665c, #048581);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
+    background-color: #02665c;
     color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-    font-size: 24px;
+nav .logo {
+    font-size: 26px;
     font-weight: bold;
+    color: white;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    margin: 0;
+    align-items: center;
+    margin-left: auto; /* Pushes items to the right */
     padding: 0;
+    margin-left: auto; /* Pushes buttons to the right */
+    display: flex;
+    gap: 20px;
 }
+
 
 .nav-links li {
     margin-left: 20px;
@@ -37,98 +67,148 @@ nav {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
-/* Hero Section */
-.hero {
-    background: linear-gradient(135deg, #02665c, #048581);
+.nav-links li a:hover {
+    color: #a2ebd8;
+}
+
+/* Get Started Button */
+.cta {
+    padding: 10px 20px;
+    background-color: #048581;
     color: white;
-    text-align: center;
-    padding: 80px 20px;
-}
-
-.hero h1 {
-    font-size: 36px;
-}
-
-.hero p {
-    font-size: 18px;
-}
-
-/* Buttons */
-.hero-buttons {
-    margin-top: 20px;
-}
-
-.btn {
-    padding: 12px 20px;
-    font-size: 16px;
+    border-radius: 50px; /* Oval Shape */
     font-weight: bold;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    margin-left: 20px;
     cursor: pointer;
-    border-radius: 5px;
-    margin: 10px;
-    width: 180px;
-    transition: all 0.3s ease;
 }
 
-/* White Button */
-.white-btn {
-    background: white;
+.cta:hover {
+    background-color: white;
     color: #048581;
+    transform: scale(1.1); /* Animation Effect */
     border: 2px solid #048581;
 }
 
-.white-btn:hover {
-    background: #048581;
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    background: linear-gradient(135deg, #02665c, #048581);
     color: white;
 }
 
-/* Teal Button */
-.teal-btn {
-    background: #048581;
-    color: white;
-    border: 2px solid white;
+.hero-content {
+    max-width: 50%;
 }
 
-.teal-btn:hover {
+.hero-buttons .btn {
+    padding: 14px 24px;
+    border-radius: 10px; /* More modern look */
+    font-size: 1rem;
+    font-weight: 600;
+    position: relative;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+.btn-white {
     background: white;
     color: #048581;
+    border: none;
+}
+
+.btn-white:hover {
+    background: #048581;
+    color: white;
+    padding-right: 32px;
+}
+
+.btn-white:hover::after {
+    content: ' >';
+    position: absolute;
+    right: 16px;
+    transition: right 0.3s ease;
+}
+
+.btn-teal {
+    background: #048581;
+    color: white;
+    border: none;
+}
+
+.btn-teal:hover {
+    background: white;
+    color: #048581;
+}
+
+/* Stats Section */
+.stats {
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    background: #f8f9fa;
+    text-align: center;
+}
+
+.stat {
+    margin: 0 20px;
 }
 
 /* Features Section */
 .features {
-    padding: 50px 20px;
+    padding: 40px;
     text-align: center;
-    background: white;
 }
 
-.feature-container {
+.feature-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
-    padding: 20px;
+    margin-top: 20px;
 }
 
-.feature {
-    background: linear-gradient(135deg, #05a594, #048581);
-    color: white;
+.feature-item {
+    background-color: white;
     padding: 20px;
-    border-radius: 10px;
-    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.feature:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+.feature-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* Footer */
 footer {
     background: #02665c;
     color: white;
-    text-align: center;
-    padding: 15px 0;
-    margin-top: 20px;
-    font-weight: bold;
+    padding: 20px 40px;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
 }

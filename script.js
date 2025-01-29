@@ -1,7 +1,2 @@
-function registerVolunteer() {
-  alert("Volunteer registration is coming soon! Stay tuned.");
-}
-
-function bookAmbulance() {
-  alert("Ambulance booking feature will be available soon!");
-}
+// Placeholder for button actions
+console.log("SwasthSetu is live!");
