@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of Patients</title>
+    <link rel="stylesheet" href="patients.css">
+</head>
+<body>
+    <div class="container">
+        <h2>List of Patients</h2>
+        
+        <input type="text" id="searchInput" placeholder="Search by name or location...">
+
+        <table id="patientsTable">
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0)">Patient's Name</th>
+                    <th onclick="sortTable(1)">Age</th>
+                    <th onclick="sortTable(2)">Gender</th>
+                    <th onclick="sortTable(3)">Contact Number</th>
+                    <th onclick="sortTable(4)">Location</th>
+                    <th onclick="sortTable(5)">Injury Type</th>
+                    <th onclick="sortTable(6)">Preferred Mode of Transport</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rahul Sharma</td>
+                    <td>35</td>
+                    <td>Male</td>
+                    <td>9876543210</td>
+                    <td>Delhi</td>
+                    <td>Fracture</td>
+                    <td>Ambulance</td>
+                </tr>
+                <tr>
+                    <td>Anjali Verma</td>
+                    <td>28</td>
+                    <td>Female</td>
+                    <td>9876543222</td>
+                    <td>Mumbai</td>
+                    <td>Burn</td>
+                    <td>Volunteer Car</td>
+                </tr>
+                <tr>
+                    <td>Amit Patel</td>
+                    <td>40</td>
+                    <td>Male</td>
+                    <td>9876543333</td>
+                    <td>Bangalore</td>
+                    <td>Head Injury</td>
+                    <td>Helicopter</td>
+                </tr>
+                <tr>
+                    <td>Priya Singh</td>
+                    <td>32</td>
+                    <td>Female</td>
+                    <td>9876543444</td>
+                    <td>Kolkata</td>
+                    <td>Cardiac Arrest</td>
+                    <td>Ambulance</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="patients.js"></script>
+</body>
+</html>
