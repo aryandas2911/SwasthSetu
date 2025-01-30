@@ -4,17 +4,97 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login - SwasthSetu</title>
-    <link rel="stylesheet" href="login.css" />
-    <script defer src="login.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+    <style>
+      /* General Reset */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(135deg, #02665c, #048581);
+      }
+
+      /* Login Container */
+      .login-container {
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+      }
+
+      /* Form Title */
+      h2 {
+        margin-bottom: 20px;
+        color: #02665c;
+      }
+
+      /* Input Group */
+      .input-group {
+        margin-bottom: 15px;
+        text-align: left;
+      }
+
+      .input-group label {
+        font-weight: 600;
+        display: block;
+      }
+
+      .input-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1rem;
+      }
+
+      /* Button */
+      .btn {
+        width: 100%;
+        padding: 10px;
+        background-color: #048581;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background 0.3s ease;
+      }
+
+      .btn:hover {
+        background-color: #02665c;
+      }
+
+      /* Toggle Text */
+      .toggle-text {
+        margin-top: 15px;
+        font-size: 0.9rem;
+      }
+
+      .toggle-text a {
+        color: #02665c;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .toggle-text a:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body>
     <div class="login-container">
       <div class="form-box">
-        <h2 id="form-title">Sign In</h2>
+        <h2>Sign In</h2>
         <form id="login-form">
           <div class="input-group">
             <label for="email">Email</label>
@@ -26,24 +106,23 @@
             <input type="password" id="password" required />
           </div>
 
-          <div id="extra-fields" class="hidden">
-            <div class="input-group">
-              <label for="name">Full Name</label>
-              <input type="text" id="name" />
-            </div>
-
-            <div class="input-group">
-              <label for="confirm-password">Confirm Password</label>
-              <input type="password" id="confirm-password" />
-            </div>
-          </div>
-
-          <button type="submit" class="btn">Submit</button>
+          <button type="submit" class="btn">Sign In</button>
         </form>
-        <p id="toggle-text" class="toggle-text">
-          Don't have an account? <a href="#" id="toggle-link">Sign Up</a>
+        <p class="toggle-text">
+          Don't have an account? <a href="login2.html">Sign Up</a>
         </p>
       </div>
     </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const loginForm = document.getElementById("login-form");
+
+        loginForm.addEventListener("submit", function (event) {
+          event.preventDefault();
+          alert("Sign In Successful!");
+        });
+      });
+    </script>
   </body>
 </html>
