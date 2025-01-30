@@ -56,3 +56,25 @@ tbody tr:hover {
     border-radius: 5px;
     font-size: 1rem;
 }
+
+/* Load More Button */
+#loadMoreBtn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #048581;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#loadMoreBtn:hover {
+    background-color: #02665c;
+}
+
+/* Initially Hide Extra Rows */
+.hidden-row {
+    display: none;
+}
