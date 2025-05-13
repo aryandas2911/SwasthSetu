@@ -21,6 +21,11 @@ This project was developed as part of **HackWie 3.0 by IEEE MSIT**, where our te
 
 ---
 
+## 📷 Preview 
+![SwasthSetu Preview](./preview.png)
+
+---
+
 ## 💡 Getting Started
 
 Follow these steps to run the project locally:
