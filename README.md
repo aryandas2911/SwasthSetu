@@ -32,7 +32,7 @@ Follow these steps to run the project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/SwasthSetu.git
+   git clone https://github.com/aryandas2911/SwasthSetu.git
    cd SwasthSetu
 2. Open the project:
 Locate the index.html file in the project directory.
