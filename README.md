@@ -51,7 +51,3 @@ Deployment on platforms like GitHub Pages or Netlify for public access.
 ## 🤝 Contributing
 Contributions are welcome! Feel free to fork the repository and submit a pull request. For significant changes, please open an issue first to discuss the proposed updates.
 
-
----
-
-This version describes the project clearly, highlights key features, and outlines future plans. Let me know if you'd like to tweak anything further! 🚀✨
